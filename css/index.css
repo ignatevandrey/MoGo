@@ -340,9 +340,36 @@ img {
 }
 
 
+/* devices  */
 
 
+.section--section {
+    padding-bottom: 0;
+    background: url(../images/devices/devices_bg_02.jpg) center no-repeat;
+    background-size: cover;
+}
 
 
+.devices {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.devices_img {
+    display: block;
+    height: 580px;
+    width: 480px;
+}
+
+.devices_img--iphone {
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    z-index: 1;
+    height: 440px;
+    width: 200px;
+}
 
 
