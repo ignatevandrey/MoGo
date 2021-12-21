@@ -1,0 +1,46 @@
+.devices {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.devices_img {
+    display: block;
+    width: auto;
+}
+
+.devices_img--iphone {
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    z-index: 1;
+    width: auto;
+}
+
+@media (max-width: 500px) {
+    .devices_adapt {
+        display: none;
+    }
+
+    .devices {
+        display: none;
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .devices_img {
+        display: block;
+        width: auto;
+    }
+    
+    .devices_img--iphone {
+        position: absolute;
+        bottom: -55px;
+        right: 0;
+        z-index: 1;
+        width: auto;
+    }
+}

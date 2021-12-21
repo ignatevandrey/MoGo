@@ -1,0 +1,85 @@
+.services {
+    display: flex;
+}
+
+.services_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_img {
+    height: 32px;
+    width: 32px;
+}
+
+.services_title {
+    margin-left: 30px;
+    font-family: "monts_400";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.services_text {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: "robo_400";
+    font-size: 15px;
+    color: #999999;
+}
+
+.container_services {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services_line {
+    margin: 50px 0;
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .services {
+        display: block;
+    }
+    
+    .services_item {
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .services_img {
+        width: auto;
+    }
+    
+    .services_title {
+        margin-left: 30px;
+        font-family: "monts_400";
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    
+    .services_text {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-family: "robo_400";
+        font-size: 15px;
+        color: #999999;
+    }
+    
+    .container_services {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .services_line {
+        display: none;
+    }
+}
