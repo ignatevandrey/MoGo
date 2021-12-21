@@ -1,0 +1,160 @@
+.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 7;
+}
+
+.header_logo {
+    font-family: "monts_700";
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* nav  */
+
+
+.menu{
+    font-size: 10px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.menu_link {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.menu_link:hover {
+    color: #fce38a;
+}
+
+.menu_link:after {
+    content: "";
+    display: none;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    z-index: 1;
+    height: 3px;
+    width: 100%;
+    background-color: #fce38a;
+}
+
+.menu_link:hover:after {
+    display: block;
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 10px 10px 0 10px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 7;
+    }
+    
+    .header_logo {
+        font-family: "monts_700";
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .menu{
+        font-size: 10px;
+        text-transform: uppercase;
+        align-self: center;
+    }
+    
+    .menu_link {
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        margin: 0 10px;
+    }
+    
+    .menu_link:hover {
+        color: #fce38a;
+    }
+    
+    .menu_link:after {
+        content: "";
+        display: none;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        z-index: 1;
+        height: 3px;
+        width: 100%;
+        background-color: #fce38a;
+    }
+    
+    .menu_link:hover:after {
+        display: block;
+    }
+}
+
+
+@media (max-width: 500px) {
+.header {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 7;
+}
+
+.header_logo {
+    font-family: "monts_700";
+    font-size: 10px;
+    color: #fff;
+}
+
+.menu{
+    font-size: 10px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.menu_link {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.menu_link:hover {
+    color: #fce38a;
+}
+
+.menu_link:after {
+    content: "";
+    display: none;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    z-index: 1;
+    height: 3px;
+    width: 100%;
+    background-color: #fce38a;
+}
+
+.menu_link:hover:after {
+    display: block;
+}
+
+  }

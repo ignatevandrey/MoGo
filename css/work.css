@@ -1,0 +1,119 @@
+.work {
+    margin-top: 100px;
+    display: flex;
+}
+
+.work_list {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.work_img {
+    display: block;
+}
+
+.work_item {
+    position: relative;
+    background: linear-gradient(to top, #fce38a, #f38181);
+}
+
+.work_item:hover  .work_img {
+    opacity: 10%;
+}
+
+.work_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    display: none;
+}
+
+.work_item:hover .work_text {
+    display: block;
+}
+
+.work_icon {
+    width: 20%;
+    margin: 0 auto 14px;
+}
+
+.work_header {
+    font-family: "monts_400";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fdefdf;
+}
+
+.work_title {
+    font-family: "robo_300";
+    font-size: 14px;
+    color: #fdefdf;
+    text-align: center;
+}
+
+.testimonial {
+    margin-top: 100px;
+}
+
+@media (max-width: 500px) {
+    .work {
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    .work_list {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .work_img {
+        display: block;
+    }
+    
+    .work_item {
+        position: relative;
+        background: linear-gradient(to top, #fce38a, #f38181);
+    }
+    
+    .work_item:hover  .work_img {
+        opacity: 10%;
+    }
+    
+    .work_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        display: none;
+    }
+    
+    .work_item:hover .work_text {
+        display: block;
+    }
+    
+    .work_icon {
+        width: 20%;
+        margin: 0 auto 14px;
+    }
+    
+    .work_header {
+        font-family: "monts_400";
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #fdefdf;
+    }
+    
+    .work_title {
+        font-family: "robo_300";
+        font-size: 10px;
+        color: #fdefdf;
+        text-align: center;
+    }
+    
+    .testimonial {
+        margin-top: 10px;
+    }
+}

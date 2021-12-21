@@ -1,0 +1,107 @@
+.people_suptitle {
+    font-family: "kaush_400";
+    font-size: 15px;
+    text-align: left;
+}
+
+.people_title {
+    font-family: "monts_700";
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.people_line {
+    margin: 20px 0;
+    height: 3px;
+    background-color: #f38181;
+    border: none;
+    width: 60px;
+}
+
+.people_text {
+    font-size: 14px;
+    font-family: "robo_400";
+    text-align: left;
+    color: #999999;
+}
+
+/* ------------- */
+
+.people {
+    background: url(../images/people/people_bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.people_card {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 40px;
+}
+
+.people_card_item {
+    display: flex;
+}
+
+.people_card_img {
+    width: auto;
+    margin: 0 30px;
+    height: 90%;
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    .people_card {
+        margin-top: 40px;
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 40px;
+        }
+
+        .people_text_wrap {
+            margin-top: 20px;
+        }
+
+        .people_line {
+            margin: 20px 0;
+            height: 3px;
+            background-color: #f38181;
+            border: none;
+            width: 60px;
+        }
+        
+        .people_text {
+            padding-bottom: 10px;
+            font-size: 14px;
+            font-family: "robo_400";
+            text-align: left;
+            color: #999999;
+        }
+}
+
+
+@media (max-width: 500px) {
+    .people_card {
+        margin-top: 10px;
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 40px;
+        }
+
+        .people_line {
+            margin: 20px 0;
+            height: 3px;
+            background-color: #f38181;
+            border: none;
+            width: 60px;
+        }
+        
+        .people_text {
+            padding-bottom: 10px;
+            font-size: 10px;
+            font-family: "robo_400";
+            text-align: left;
+            color: #999999;
+        }
+  }

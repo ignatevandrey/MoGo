@@ -1,0 +1,104 @@
+.stats {
+    background-color: #95e1d3;
+}
+
+.stats_list {
+    display: flex;
+}
+
+.stats_item {
+    border-left: 1px solid #b5eae0;
+    padding: 90px 50px;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.stats_item:last-child {
+    border-right: 1px solid #b5eae0;
+
+}
+
+.stats_item_number {
+    font-family: "monts_700";
+    font-size: 72px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.stats_item_text {
+    font-family: "monts_400";
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 1200px) {
+    .stats_list {
+        display: flex;
+    }
+
+    .stats_item {
+        border-left: 1px solid #b5eae0;
+        padding: 30px 10px;
+        flex: 1 1 0;
+        text-align: center;
+    }
+    
+    .stats_item:last-child {
+        border-right: 1px solid #b5eae0;
+    
+    }
+    
+    .stats_item_number {
+        font-family: "monts_700";
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .stats_item_text {
+        font-family: "monts_400";
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+
+
+    @media (max-width: 500px) {
+    .stats {
+        background-color: #95e1d3;
+    }
+    
+    .stats_list {
+        display: flex;
+    }
+    
+    .stats_item {
+        border-left: 1px solid #b5eae0;
+        padding: 10px 5px;
+        flex: 1 1 0;
+        text-align: center;
+    }
+    
+    .stats_item:last-child {
+        border-right: 1px solid #b5eae0;
+    
+    }
+    
+    .stats_item_number {
+        font-family: "monts_700";
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .stats_item_text {
+        font-family: "monts_400";
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}

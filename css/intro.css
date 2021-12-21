@@ -1,0 +1,190 @@
+.intro {
+    color: #fff;
+    text-align: center;
+}
+
+.intro_suptitle {
+    font-family: "kaush_400";
+    padding-bottom: 10px;
+    font-size: 75px;
+}
+
+.intro_title {
+    font-family: "monts_700";
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 140px;
+}
+
+.line {
+    margin-top: 60px;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+    width: 60px;
+}
+
+
+/* бутоны */
+
+
+
+.btn {
+    border: 3px solid#fff;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: inline-block;
+    font-family: "monts_700";
+}
+
+
+
+/* slider  */
+
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.slider_list{
+    width: 23%;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-top: 3px solid #fff;
+    opacity: 0.7;
+}
+
+.slider_list:hover {
+    opacity: 1;
+}
+
+.slider_item {
+    font-size: 24px;
+    font-family: "monts_700";
+}
+
+@media (max-width: 1200px) {
+    
+    .intro_suptitle {
+        font-family: "kaush_400";
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .intro_title {
+        font-family: "monts_700";
+        font-size:90px;
+        text-transform: uppercase;
+        line-height: 100px;
+    }
+    
+    .line {
+        margin-top: 40px;
+        height: 3px;
+        background-color: #fff;
+        border: none;
+        width: 30px;
+    }
+
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 20px;
+    
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .intro {
+        color: #fff;
+        text-align: center;
+    }
+    
+    .intro_suptitle {
+        font-family: "kaush_400";
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .intro_title {
+        font-family: "monts_700";
+        font-size: 55px;
+        text-transform: uppercase;
+        line-height: 100px;
+    }
+    
+    .line {
+        margin-top: 20px;
+        height: 3px;
+        background-color: #fff;
+        border: none;
+        width: 30px;
+    }
+    
+    
+    /* бутоны */
+    
+    
+    
+    .btn {
+        border: 2px solid#fff;
+        color: #fff;
+        padding: 5px 15px;
+        text-transform: uppercase;
+        margin-top: 50px;
+        display: inline-block;
+        font-family: "monts_700";
+    }
+
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 10px;
+    
+    }
+    
+    .slider_list{
+        width: 22%;
+        font-size: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 20px 10px;
+        border-top: 3px solid #fff;
+        opacity: 0.7;
+    }
+    
+    .slider_list:hover {
+        opacity: 1;
+    }
+    
+    .slider_item {
+        font-size: 15px;
+        font-family: "monts_700";
+    }
+}
